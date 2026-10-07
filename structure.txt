@@ -1,0 +1,43 @@
+Today, we'll build a Courier Tracking System using Python and JSON. This project allows users to register customers, create shipments, assign delivery agents, update shipment statuses, track parcels, and generate delivery reports.
+
+📌 Features
+- Add, view, and search customers
+- Register delivery agents
+- Create courier shipments
+- Generate unique tracking IDs
+- Assign shipments to delivery agents
+- Update shipment status
+- Track shipment history
+- Calculate delivery charges
+- Search shipments by tracking ID
+- Generate courier reports
+- Store records permanently in JSON files
+
+🛠️ Tech Stack
+Technology          	Purpose
+Python          	Application logic
+JSON            	Data storage
+OS	              File management
+Datetime	        Tracking timestamps
+UUID	            Unique ID generation
+
+📁 Folder Structure
+courier-tracking-system/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── customer_manager.py
+├── agent_manager.py
+├── shipment_manager.py
+├── tracking_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── customers.json
+│   ├── agents.json
+│   └── shipments.json
+│
+├── .gitignore
+└── README.md
